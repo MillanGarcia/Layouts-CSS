@@ -1,12 +1,21 @@
 body {
 	margin: 0;
 }
+/* Display:flex works on div, not at body*/
+div {
+	display: flex;
+}
 #sectionA {
 	background: blue;
+	width: 33%;
+	height: 100px;
+	/*Height works for all of it, even if you only write it down at one div of the group*/
 }
 #sectionB {
 	background: red;
+	width: 33%;
 }
 #sectionC {
 	background: green;
+	width: 33%;
 }
